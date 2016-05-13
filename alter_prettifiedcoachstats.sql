@@ -1,7 +1,3 @@
-alter 
-	view NCAABasketball.prettifiedcoachstats
-as 
-
 select 
 	concat(seasonstartyear, '-',seasonendyear) as seasondoubleyear,
     tnt.Team_Name,
